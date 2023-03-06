@@ -20,15 +20,80 @@
     justify-content: right;
 }
 
-
 #imagem2 {
     width: 16%;
 }
 
-#imagem1{
-    position:absolute;
-		left:50%;
-		top:50%;
-		margin-left:-110px;
-		margin-top:40px
+#bikineazul {
+    width: 270px;
+    height: 289px;
+    margin-top: 188px;
+    margin-left: 114px;
 }
+
+#toalha {
+    width: 270px;
+    height: 289px;
+    margin-top: 188px;
+    margin-left: 114px;
+    margin-right: 104px;
+}
+
+#bikinerosa {
+    width: 270px;
+    height: 289px;
+    margin-top: 188px;
+    margin-left: 140px;
+}
+
+.preco1 {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 114px;
+    font-size: 17px;
+    line-height: 22px;
+    margin-left: 147px;
+    margin-top: 30px;
+
+}
+
+#valor {
+    margin-left: 72px;
+
+}
+
+.preco2 {
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 120px;
+
+
+
+}
+
+#valor2 {
+    text-align: center;
+    margin-top: px;
+}
+
+.cartoes {
+    position: absolute;
+    width: 12px;
+    height: 100px;
+    left: 30px;
+    top: 200px;
+}
+
+/* .preco3{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 114px;
+    font-size: 17px;
+    line-height: 22px;
+    margin-right:px;
+    margin-top: 30px;
+} */
