@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="formulario.css" mdeia="">
+
+  <title>Cadastro Marítima</title>
+</head>
+<body>
+
+  <div> 
+    <h1 id="titulo">Cadastre se</h1>
+    <p id="subtitulo">Complete as informações</p>
+    <br>
+  </div>
+
+  <form>
+    <fieldset class="grupo">
+      <div> 
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" name="nome" id="nome" required>
+      </div>
+
+      <div class="campo">
+      <label for="Sobrenome">Sobrenome</label>
+      <input type="email" name="sobrenome" id="sobrenome" required>
+        </div>
+      
+        <div class="campo">
+          <label for="email">Email</label>
+      <input type="text" name="email" id= "email" required>
+        </div>
+    </fieldset>
+
+    <div class="campo"> 
+      <label for="Selecione seu Estado"><strong>Selecione seu Estado</strong></label>
+      <select id="Estados" Estados>
+        <option select disabled value="">Selecione</option>
+        <option>São Paulo</option>
+        <option>Rio de Janeiro</option>
+        <option>Espiríto Santo</option>
+        </select>
+    </div>
+    <div>
+      <label>CEP</label>
+      <input type="text" name="CEP" id= "CEP">
+    </div>
+    <div> 
+      <label>Endereço</label>
+      <input type="text" name="Endereço" id= "Endereço">
+    </div>
+
+    <button class="botao" type="submit">Concluído </button>
+    
+  </form>
+  
+</body>
+</html>
